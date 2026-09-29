@@ -4,7 +4,7 @@ def calculate_discount(price, member_type):
     if member_type == "regular":
         return price * 0.20
     if member_type == "premium":
-        return price * 0.30
+        return price * 0.40
 
     if member_type == "vip":
         return price * 0.50
